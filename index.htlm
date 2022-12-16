@@ -1,0 +1,20 @@
+<html>
+<head>
+  <style>
+    .botao {
+      font-size: 24px;
+      color: purple;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <p>Clique no botão abaixo para exibir a mensagem:</p>
+  <p class="botao" onclick="exibirMensagem()">❤️</p>
+  <script>
+    function exibirMensagem() {
+      alert("Xiamo Doca de tudo mais! dorme com Deus, reze pra mimi. Boa noite doooca...");
+    }
+  </script>
+</body>
+</html>
